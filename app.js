@@ -63,6 +63,6 @@ app.post("/failure", function(req, res){
 //listId
 //d7bbd11969
  
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("server is started on 3000")
 })
