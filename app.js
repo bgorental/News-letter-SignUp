@@ -34,7 +34,7 @@ const email = req.body.email;
     const url = "https://us10.api.mailchimp.com/3.0/lists/d7bbd11969";
     const options = {
         method : "POST",
-        auth: "bharath_g:a6e0ba2997ba63f342566c2615b0e0acb-us10"
+        auth: "bharath_g:6e0ba2997ba63f342566c2615b0e0acb-us10"
     }
     
     // https.request(url, options, callback)
